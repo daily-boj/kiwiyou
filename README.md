@@ -19,3 +19,6 @@ What problem has kiwiyou solved?
   <br> [코드 (F#)](https://github.com/daily-boj/kiwiyou/blob/master/P1735.fs) |
   [코드 (Golfscript)](https://github.com/daily-boj/kiwiyou/blob/master/P1735.golfscript) |
   [풀이](https://github.com/daily-boj/kiwiyou/wiki/1735-%EB%B6%84%EC%88%98-%ED%95%A9)
+  - [<img src="https://static.solved.ac/tier_small/9.svg" alt="Silver II" width="10"/> 1541 잃어버린 괄호](https://www.acmicpc.net/problem/1541)
+  <br> [코드 (Kotlin Native)](https://github.com/daily-boj/kiwiyou/blob/master/P1541.kt) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/1541-%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0-%EA%B4%84%ED%98%B8)
