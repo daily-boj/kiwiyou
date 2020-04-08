@@ -15,3 +15,7 @@ What problem has kiwiyou solved?
   - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> 1935 후위 표기식2](https://www.acmicpc.net/problem/1935)
   <br> [코드](https://github.com/daily-boj/kiwiyou/blob/master/P1935.rs) |
   [풀이](https://github.com/daily-boj/kiwiyou/wiki/1935-%ED%9B%84%EC%9C%84-%ED%91%9C%EA%B8%B0%EC%8B%9D2)
+  - [<img src="https://static.solved.ac/tier_small/9.svg" alt="Silver II" width="10"/> 1735 분수 합](https://www.acmicpc.net/problem/1735)
+  <br> [코드 (F#)](https://github.com/daily-boj/kiwiyou/blob/master/P1735.fs) |
+  [코드 (Golfscript)](https://github.com/daily-boj/kiwiyou/blob/master/P1735.golfscript) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/1735-%EB%B6%84%EC%88%98-%ED%95%A9)
