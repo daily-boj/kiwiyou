@@ -9,4 +9,5 @@ What problem has kiwiyou solved?
 - 2020-04-08
   - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> 10166 관중석](https://www.acmicpc.net/problem/10166)
   <br> [코드](https://github.com/daily-boj/kiwiyou/blob/master/P10166.cpp) |
-  [풀이](https://github.com/daily-boj/kiwiyou/wiki/10166-%EA%B4%80%EC%A4%91%EC%84%9D)
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/10166-%EA%B4%80%EC%A4%91%EC%84%9D) |
+  [풀이 시뮬레이션](https://boj.kiwi.style/10166/index.html)
