@@ -22,3 +22,10 @@ What problem has kiwiyou solved?
   - [<img src="https://static.solved.ac/tier_small/9.svg" alt="Silver II" width="10"/> 1541 잃어버린 괄호](https://www.acmicpc.net/problem/1541)
   <br> [코드 (Kotlin Native)](https://github.com/daily-boj/kiwiyou/blob/master/P1541.kt) |
   [풀이](https://github.com/daily-boj/kiwiyou/wiki/1541-%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0-%EA%B4%84%ED%98%B8)
+- 2020-04-10
+  - [<img src="https://static.solved.ac/tier_small/6.svg" alt="Silver V" width="10"/> 2422 한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://acmicpc.net/problem/2422)
+  <br> [코드 (C++)](https://github.com/daily-boj/kiwiyou/blob/master/P2422.cpp) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/2422-%ED%95%9C%EC%9C%A4%EC%A0%95%EC%9D%B4-%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84%EC%97%90-%EA%B0%80%EC%84%9C-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%EC%9D%84-%EC%82%AC%EB%A8%B9%EB%8A%94%EB%8D%B0)
+  - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> 6236 용돈 관리](https://www.acmicpc.net/problem/6236)
+  <br> [코드 (C)](https://github.com/daily-boj/kiwiyou/blob/master/P6236.c) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/6236-%EC%9A%A9%EB%8F%88-%EA%B4%80%EB%A6%AC)
