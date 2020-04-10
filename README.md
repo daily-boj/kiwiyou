@@ -29,3 +29,15 @@ What problem has kiwiyou solved?
   - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> 6236 용돈 관리](https://www.acmicpc.net/problem/6236)
   <br> [코드 (C)](https://github.com/daily-boj/kiwiyou/blob/master/P6236.c) |
   [풀이](https://github.com/daily-boj/kiwiyou/wiki/6236-%EC%9A%A9%EB%8F%88-%EA%B4%80%EB%A6%AC)
+- 2020-04-11
+  - [<img src="https://static.solved.ac/tier_small/4.svg" alt="Bronze II" width="10"/> 1373 2진수 8진수](https://www.acmicpc.net/problem/1373)
+  <br> [코드 (Rust 2018)](https://github.com/daily-boj/kiwiyou/blob/master/P1373.rs) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/1373-2%EC%A7%84%EC%88%98-8%EC%A7%84%EC%88%98)
+  - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> 3213 피자](https://www.acmicpc.net/problem/3213)
+  <br> [코드 (Python 3)](https://github.com/daily-boj/kiwiyou/blob/master/P3213.py) |
+  [코드 (아희, 오류 미해결)](https://github.com/daily-boj/kiwiyou/blob/master/P3213.aheui) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/3213-%ED%94%BC%EC%9E%90)
+  - [<img src="https://static.solved.ac/tier_small/10.svg" alt="Silver I" width="10"/> 1068 트리](https://www.acmicpc.net/problem/1068)
+  <br> [코드 (C++)](https://github.com/daily-boj/kiwiyou/blob/master/P1068.cpp) |
+  [코드 (Rust 2018)](https://github.com/daily-boj/kiwiyou/blob/master/P1068.rs) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/1068-%ED%8A%B8%EB%A6%AC)
