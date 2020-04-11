@@ -44,3 +44,13 @@ What problem has kiwiyou solved?
   - [<img src="https://static.solved.ac/tier_small/11.svg" alt="Gold V" width="10"/> 1043 거짓말 (→ 2020-04-10)](https://acmicpc.net/problem/1043)
   <br> [코드 (Rust 2018)](https://github.com/daily-boj/kiwiyou/blob/master/P1043.rs) |
   [풀이](https://github.com/daily-boj/kiwiyou/wiki/1043-%EA%B1%B0%EC%A7%93%EB%A7%90)
+- 2020-04-12
+  - [<img src="https://static.solved.ac/tier_small/5.svg" alt="Bronze I" width="10"/> 3447 버그왕](https://www.acmicpc.net/problem/3447)
+  <br> [코드 (Kotlin Native)](https://github.com/daily-boj/kiwiyou/blob/master/P3447.kt) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/3447-%EB%B2%84%EA%B7%B8%EC%99%95)
+  - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> 9461 파도반 수열](https://www.acmicpc.net/problem/9461)
+  <br> [코드 (F#)](https://github.com/daily-boj/kiwiyou/blob/master/P9461.fs) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/9461-%ED%8C%8C%EB%8F%84%EB%B0%98-%EC%88%98%EC%97%B4)
+  - [<img src="https://static.solved.ac/tier_small/10.svg" alt="Silver I" width="10"/> 1149 RGB거리](https://www.acmicpc.net/problem/1149)
+  <br> [코드 (Rust 2018)](https://github.com/daily-boj/kiwiyou/blob/master/P1149.rs) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/1149-RGB%EA%B1%B0%EB%A6%AC)
