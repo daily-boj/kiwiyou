@@ -41,6 +41,6 @@ What problem has kiwiyou solved?
   <br> [코드 (C++)](https://github.com/daily-boj/kiwiyou/blob/master/P1068.cpp) |
   [코드 (Rust 2018)](https://github.com/daily-boj/kiwiyou/blob/master/P1068.rs) |
   [풀이](https://github.com/daily-boj/kiwiyou/wiki/1068-%ED%8A%B8%EB%A6%AC)
-  - [<img src="https://static.solved.ac/tier_small/11.svg" alt="Gold V" width="10"/> 1043 거짓말 (기한 초과)](https://acmicpc.net/problem/1043)
+  - [<img src="https://static.solved.ac/tier_small/11.svg" alt="Gold V" width="10"/> 1043 거짓말 (→ 2020-04-10)](https://acmicpc.net/problem/1043)
   <br> [코드 (Rust 2018)](https://github.com/daily-boj/kiwiyou/blob/master/P1043.rs) |
   [풀이](https://github.com/daily-boj/kiwiyou/wiki/1043-%EA%B1%B0%EC%A7%93%EB%A7%90)
