@@ -1,2 +1,4 @@
-# for test
+# for tests
 a.out
+*.dll
+*.exe
