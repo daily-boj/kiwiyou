@@ -54,3 +54,19 @@ What problem has kiwiyou solved?
   - [<img src="https://static.solved.ac/tier_small/10.svg" alt="Silver I" width="10"/> 1149 RGB거리](https://www.acmicpc.net/problem/1149)
   <br> [코드 (Rust 2018)](https://github.com/daily-boj/kiwiyou/blob/master/P1149.rs) |
   [풀이](https://github.com/daily-boj/kiwiyou/wiki/1149-RGB%EA%B1%B0%EB%A6%AC)
+- 2020-04-13
+  - [<img src="https://static.solved.ac/tier_small/5.svg" alt="Bronze I" width="10"/> 2547 사탕 선생 고창영](https://www.acmicpc.net/problem/2547)
+  <br> [코드 (C)](https://github.com/daily-boj/kiwiyou/blob/master/P2547.c) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/2547--%EC%82%AC%ED%83%95-%EC%84%A0%EC%83%9D-%EA%B3%A0%EC%B0%BD%EC%98%81)
+  - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> 2508 사탕 박사 고창영](https://www.acmicpc.net/problem/2508)
+  <br> [코드 (C++)](https://github.com/daily-boj/kiwiyou/blob/master/P2508.cpp)
+  - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> 2435 기상청 인턴 신현수](https://www.acmicpc.net/problem/2435)
+  <br> [코드 (Node.js)](https://github.com/daily-boj/kiwiyou/blob/master/P2435.js) |
+  [풀이](https://github.com/daily-boj/kiwiyou/wiki/2435%EB%B2%88-%EA%B8%B0%EC%83%81%EC%B2%AD-%EC%9D%B8%ED%84%B4-%EC%8B%A0%ED%98%84%EC%88%98)
+- 2020-04-14
+  - [<img src="https://static.solved.ac/tier_small/5.svg" alt="Bronze I" width="10"/> 14648 쿼리 맛보기](https://www.acmicpc.net/problem/14648)
+  <br> [코드 (Python 3)](https://github.com/daily-boj/kiwiyou/blob/master/P14648.py)
+  - [<img src="https://static.solved.ac/tier_small/10.svg" alt="Silver I" width="10"/> 11047 동전 0](https://www.acmicpc.net/problem/11047)
+  <br> [코드 (Rust 2018)](https://github.com/daily-boj/kiwiyou/blob/master/P11047.rs)
+  - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="8"/> 1904 01타일](https://www.acmicpc.net/problem/1904)
+  <br> [코드 (F#)](https://github.com/daily-boj/kiwiyou/blob/master/P1904.fs)
