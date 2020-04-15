@@ -80,3 +80,10 @@ What problem has kiwiyou solved?
   <br> [코드 (F#)](https://github.com/daily-boj/kiwiyou/blob/master/P1904.fs)
   - [<img src="https://static.solved.ac/tier_small/16.svg" alt="Platinum V" width="10"/> 2042 구간 합 구하기](https://www.acmicpc.net/problem/2042)
   <br> [코드 (C++)](https://github.com/daily-boj/kiwiyou/blob/master/P2042.cpp)
+- 2020-04-15
+  - [<img src="https://static.solved.ac/tier_small/5.svg" alt="Bronze I" width="10"/> P11048 뚊](https://www.acmicpc.net/problem/11048)
+  <br> [코드 (Python 3)](https://github.com/daily-boj/kiwiyou/blob/master/P11048.py)
+  - [<img src="https://static.solved.ac/tier_small/10.svg" alt="Silver I" width="10"/> P16510 Predictable Queue](https://www.acmicpc.net/problem/16510)
+  <br> [코드 (C++)](https://github.com/daily-boj/kiwiyou/blob/master/P16510.cpp)
+  - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> P18111 마인크래프트](https://www.acmicpc.net/problem/18111)
+  <br> [코드 (Python 3)](https://github.com/daily-boj/kiwiyou/blob/master/P18111.py)
