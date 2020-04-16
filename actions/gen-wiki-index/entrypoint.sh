@@ -17,7 +17,7 @@ cd ../
 
 echo "이곳에서는 각 문제를 푼 접근 방식을 확인하실 수 있습니다.\n" > Home.md
 
-for page in $(find . -maxdepth 1 -type f -name '*.md' -execdir basename '{}' ';' | sort -n -t ' ' -k 1); do
+for page in $(ls -v -1); do
     filename=${page%.*}
     title=${filename//-/ }
     if [ "Home.md" != "$page" ]; then

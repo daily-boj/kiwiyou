@@ -1,5 +1,6 @@
 name: Index Generator
 author: kiwiyou <kiwiyou.dev@gmail.com>
+description: Generates wiki index automatically.
 runs:
   using: docker
   image: Dockerfile
