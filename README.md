@@ -94,3 +94,6 @@ What problem has kiwiyou solved?
   <br> [코드 (C)](https://github.com/daily-boj/kiwiyou/blob/master/P9693.c)
   - [<img src="https://static.solved.ac/tier_small/8.svg" alt="Silver III" width="10"/> 18429 근손실](https://www.acmicpc.net/problem/18429)
   <br> [코드 (Rust 2018)](https://github.com/daily-boj/kiwiyou/blob/master/P18429.rs)
+- 2020-04-17
+  - [<img src="https://static.solved.ac/tier_small/3.svg" alt="Bronze III" width="10"/> 2875 대회 or 인턴](https://www.acmicpc.net/problem/2875)
+  <br> [코드 (Python 3)](https://github.com/daily-boj/kiwiyou/blob/master/P2875.py)
