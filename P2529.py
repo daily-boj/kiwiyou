@@ -1,30 +1,28 @@
-count = int(input())
-inequalities = input().split()
+from sys import stdin
+
+count = int(stdin.readline())
+inequalities = stdin.readline().rstrip().split()
 
 maxmimum = []
 stack = []
 for i, inequality in enumerate(inequalities):
-    if inequality == '<':
-        stack.append(9 - i)
-    else:
-        maxmimum.append(9 - i)
+    stack.append(9 - i)
+    if inequality == '>':
         while stack:
             maxmimum.append(stack.pop())
 maxmimum.append(9 - count)
 while stack:
     maxmimum.append(stack.pop())
-print(''.join(str(n) for n in maxmimum))
+print(''.join(map(str, maxmimum)))
 
 minimum = []
 # stack = []
 for i, inequality in enumerate(inequalities):
+    stack.append(i)
     if inequality == '<':
-        stack.append(i)
         while stack:
             minimum.append(stack.pop())
-    else:
-        stack.append(i)
 minimum.append(count)
 while stack:
     minimum.append(stack.pop())
-print(''.join(str(n) for n in minimum))
+print(''.join(map(str, minimum)))
