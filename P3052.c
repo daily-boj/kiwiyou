@@ -1,0 +1,1 @@
+r[42],s,i=42;int f(){return i--?s+=!!r[i],f():s;}main(c,n){c<=10?scanf("%d",&n),++r[n%42],main(c+1,0):printf("%d",f());}
