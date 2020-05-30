@@ -1,55 +1,36 @@
 use std::fs::File;
-use std::hint::unreachable_unchecked;
-use std::io::{BufWriter, Read, Write};
+use std::io::{BufWriter, Write};
 use std::mem::MaybeUninit;
 use std::os::unix::io::FromRawFd;
 
-trait UnsafeUnwrap<T> {
-    fn unsafe_unwrap(self) -> T;
-}
-
-impl<T> UnsafeUnwrap<T> for Option<T> {
-    fn unsafe_unwrap(self) -> T {
-        self.unwrap_or_else(|| unsafe { unreachable_unchecked() })
-    }
-}
-
-impl<T, E> UnsafeUnwrap<T> for Result<T, E> {
-    fn unsafe_unwrap(self) -> T {
-        self.unwrap_or_else(|_| unsafe { unreachable_unchecked() })
-    }
-}
+extern "C" { fn mmap(a: *mut u8, l: usize, p: i32, f: i32, d: i32, o: i64) -> *mut u8; }
+fn input(size: usize) -> *const u8 { unsafe { mmap(0 as *mut u8, size, 1, 2, 0, 0) } }
+fn next(p: &mut *const u8) -> I { unsafe { let mut n = 0; while **p & 16 != 0 { n = n * 10 + (**p as I & 15); *p = p.offset(1) } *p = p.offset(1); n } }
+type I = u32;
 
 fn main() {
-    let mut stdin = unsafe { File::from_raw_fd(0) };
-    let mut buffer: [u8; 5_000_007] = unsafe { MaybeUninit::uninit().assume_init() };
-    let len = stdin.read(&mut buffer).unsafe_unwrap();
-    let input_str = unsafe { std::str::from_utf8_unchecked(&buffer[..len]) };
-    let mut input = input_str
-        .split_ascii_whitespace()
-        .map(str::parse::<u32>)
-        .map(UnsafeUnwrap::unsafe_unwrap);
-    let count = input.next().unsafe_unwrap() as usize;
-    let mut towers = Vec::with_capacity(count);
-    input.for_each(|v| towers.push(v));
+    let mut inputs = input(5_000_007);
+    let count = next(&mut inputs) as usize;
+    let mut towers: [u32; 500000] = unsafe { MaybeUninit::uninit().assume_init() };
+    for i in 0..count {
+        towers[i] = next(&mut inputs);
+    }
     let mut stack = Vec::with_capacity(count);
-    let mut result = Vec::with_capacity(count);
-    unsafe { result.set_len(count) };
+    let mut result = [0u32; 500000];
     for i in (0..count).rev() {
         let height = towers[i];
-        while let Some(lowest) = stack.last().copied() {
+        while let Some(lowest) = stack.pop() {
             if towers[lowest as usize] < height {
-                stack.pop();
                 result[lowest as usize] = (i + 1) as u32;
             } else {
+                stack.push(lowest);
                 break;
             }
         }
         stack.push(i);
     }
-    stack.iter().for_each(|i| result[*i as usize] = 0);
     let mut stdout = BufWriter::with_capacity(65536, unsafe { File::from_raw_fd(1) });
     for i in 0..count {
-        stdout.write_fmt(format_args!("{} ", result[i])).unsafe_unwrap();
+        let _ = stdout.write_fmt(format_args!("{} ", result[i]));
     }
 }

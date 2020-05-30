@@ -2,6 +2,7 @@
 a.out
 *.dll
 *.exe
+input.txt
 
 # whitespace interpreter
 whitespace
