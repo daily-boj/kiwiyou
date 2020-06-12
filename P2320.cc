@@ -1,51 +1,42 @@
 #include <bits/stdc++.h>
 using namespace std;
-int conv(char c) {
-    switch (c) {
-    case 'A': return 0;
-    case 'E': return 1;
-    case 'I': return 2;
-    case 'O': return 3;
-    case 'U': return 4;
+
+char first[16];
+char last[16];
+int len[16];
+int wcount;
+bool visited[16];
+int max_from[16];
+
+int track(int i) {
+    if (max_from[i] != -1) return max_from[i];
+    max_from[i] = 0;
+    for (int mid = 0; mid < wcount; ++mid) {
+        if (!visited[mid] && last[i] == first[mid]) {
+            visited[mid] = true;
+            max_from[i] = max(max_from[i], len[mid] + track(mid));
+            visited[mid] = false;
+        }
     }
-    return -1;
+    return max_from[i];
 }
+
 int main() {
-    int n;
-    cin >> n;
-    string dict[16];
-    queue<int> visit;
-    int mask = 1;
-    unsigned long dp[65536][5] = {};
-    for (int i = 0; i < n; ++i) {
-        cin >> dict[i];
-        visit.push(mask);
-        dp[mask][conv(*dict[i].rbegin())] = dict[i].length();
-        mask <<= 1;
+    cin.tie(nullptr)->sync_with_stdio(false);
+    cin >> wcount;
+    char buffer[101];
+    for (int i = 0; i < wcount; ++i) {
+        cin >> buffer;
+        len[i] = strlen(buffer);
+        first[i] = buffer[0];
+        last[i] = buffer[len[i] - 1];
     }
-    int max_checked = 0;
-    while (!visit.empty()) {
-        auto current = visit.front();
-        max_checked = max(max_checked, current);
-        visit.pop();
-        for (int i = 0, mask = 1; i < n; ++i, mask <<= 1) {
-            if (current & mask) continue;
-            auto& word = dict[i];
-            auto to_connect = dp[current][conv(word[0])];
-            if (!to_connect) continue;
-            auto& to_change = dp[current | mask][conv(*word.rbegin())];
-            auto new_value = to_connect + word.length();
-            if (new_value > to_change) {
-                to_change = new_value;
-                visit.push(current | mask);
-            }
-        }
+    int point = 0;
+    for (int i = 0; i < wcount; ++i) {
+        fill(visited, visited + 16, false);
+        fill(max_from, max_from + 16, -1);
+        visited[i] = true;
+        point = max(point, len[i] + track(i));
     }
-    unsigned long max_point = 0;
-    for (int i = 1; i <= max_checked; ++i) {
-        for (int j = 0; j < 5; ++j) {
-            max_point = max(max_point, dp[i][j]);
-        }
-    }
-    cout << max_point;
+    cout << point;
 }
