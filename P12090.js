@@ -1,0 +1,1 @@
+require('readline').createInterface(process.stdin).once('line', line => console.log([...line].map(c => 'ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ'[~~(~~((c.charCodeAt(0) - 0xAC00) / 28) / 21)]).join('')))
